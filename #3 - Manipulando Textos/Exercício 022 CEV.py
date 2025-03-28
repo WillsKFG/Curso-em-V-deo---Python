@@ -1,6 +1,6 @@
 # Exercício 022 - CEV - Curso em Vídeo Python
 # Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
-
+print('')
 nome = str(input("----- Insira seu  nome completo: ----- \n"))
 print('')
 primeiro_nome = nome.split()[0]
@@ -16,3 +16,4 @@ print('* o primeiro nome tem:',len(primeiro_nome), 'letras.\n')
 print('---------------------------------------')
 print('----------- FIM DO PROGRAMA -----------')
 print('---------------------------------------')
+print('')
